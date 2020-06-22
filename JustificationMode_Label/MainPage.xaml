@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:JustificationMode_Label.Helpers"
+             mc:Ignorable="d"
+             x:Class="JustificationMode_Label.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Justification Mode" FontSize="25" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="15"/>
+        <local:CustomLabel Margin="15,0">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias laborum doloremque non odio, aliquid ipsa assumenda adipisci sunt, voluptatem tempora quis cum illo laboriosam accusantium adatque veniam perspiciatis blanditiis numquam reiciendis. Voluptas, quos dolorem! Illum possimusfacilis neque sit, sint rem ut magni laborum doloribus earum quaerat ipsum eius totam tempore commodi dolore impedit reiciendis iure error. At, animi voluptatibus. Expedita recusandae labore accusantium beatae facilis error voluptate quis repellendus vero aspernatur praesentium explicabo aperiam, laudantium ipsam, consequatur voluptatum suscipit. Vero, beatae cupiditate unde veritatis earum, quam natus laudantium exercitationem reiciendis magnam recusandae id, possimus facilis repellat dolorum eaque.
+        </local:CustomLabel>
+    </StackLayout>
+
+</ContentPage>
